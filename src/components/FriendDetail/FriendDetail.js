@@ -9,5 +9,6 @@ const FriendDetail = () => {
         </div>
     );
 };
+// amar comment 
 
 export default FriendDetail;
