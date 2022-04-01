@@ -9,9 +9,15 @@ const Header = () => {
         {/* hii */}
                   <h1>Welcome to my Routing</h1>
                   <nav>
-                      <CustomLink to="/home">Home</CustomLink>
+
+                  <Link to="/home">Home</Link>
+                          <Link to="/friends">Friends</Link>
+                          <Link to="/posts">Posts</Link>
+                          <Link to="/about">About</Link>
+
+                      {/* <CustomLink to="/home">Home</CustomLink>
                           <CustomLink to="/friends">Friends</CustomLink>
-                          <CustomLink to="/about">About</CustomLink>
+                          <CustomLink to="/about">About</CustomLink> */}
                   </nav>
 
         </div>
