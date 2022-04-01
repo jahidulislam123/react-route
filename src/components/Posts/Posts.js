@@ -20,7 +20,7 @@ const Posts = () => {
                     to={`/posts/${post.id}`}
                      >{post.id} </Link>)
             }
-            <Outlet></Outlet>
+            <Outlet> </Outlet>
         </div>
     );
 };

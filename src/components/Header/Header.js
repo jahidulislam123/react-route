@@ -10,7 +10,7 @@ const Header = () => {
                   <h1>Welcome to my Routing</h1>
                   <nav>
 
-                  <Link to="/home">Home</Link>
+                          <Link to="/home">Home</Link>
                           <Link to="/friends">Friends</Link>
                           <Link to="/posts">Posts</Link>
                           <Link to="/about">About</Link>
