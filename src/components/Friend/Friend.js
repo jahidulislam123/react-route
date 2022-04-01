@@ -12,7 +12,7 @@ const Friend = (props) => {
     return (
         <div>
             <h2>Name: {name}</h2>
-            <Link to={'/friend'} >Show Detail</Link>
+            <Link to={'/friend/'} >Show Detail</Link>
             <button onClick={showFriendDetail} >{username} id:{id}</button>
         </div>
     );
